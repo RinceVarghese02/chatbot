@@ -203,7 +203,7 @@ function generateResponse(message: string): string {
 
 function extractTopic(message: string): string {
   // Remove question prefixes and other common words
-  let topic = message.toLowerCase()
+  const topic = message.toLowerCase()
     .replace(/^(what is|what are|who is|how to|how do i|why is|why are|why does|how does|tell me about) /i, '')
     .replace(/\?/g, '')
     .trim();

@@ -137,7 +137,7 @@ export default function ChatInterface() {
             </button>
           </div>
           <p className="text-xs text-gray-600">
-            Your API key will be used only for this session and won't be stored on the server.
+            Your API key will be used only for this session and won&apos;t be stored on the server.
             {hasSetApiKey && " An API key has been set for this session."}
           </p>
         </div>
